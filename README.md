@@ -16,7 +16,7 @@
 
 产出静态资源
 
-	$ gitbook build --output=./poetry-temp
+	$ gitbook build . ../temp
 
 ## LICENSE
 [LICENSE](./LICENSE.md)
