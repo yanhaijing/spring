@@ -4,5 +4,23 @@
     "language": "zh-cn",
     "structure": {
         "readme": "INTRO.md"
+    },
+    "plugins": ["github", "baiduana", "edit-link", "-diy-introduction", "-duoshuo"],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/yanhaijing/spring"
+        },
+        "baidu": {
+            "token": "53ee8889aa158cbb581bdbc9a373b5f0"
+        },
+        "edit-link": {
+            "base": "https://github.com/yanhaijing/spring/edit/BRANCH/path/to/book",
+            "label": "Edit This Page"
+        },
+        "duoshuo": {
+            "short_name": "yanhaijing",
+            "theme": "default"
+        },
+        "introduction-text": "封面"
     }
 }

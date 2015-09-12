@@ -1,5 +1,7 @@
 # Summary
 
+- [版权](LICENSE.md)
+
 - [诗](ci/README.md)
     - [金沙滩](shi/2014-05-01-金沙滩.md)
     - [浪花](shi/2014-05-01-浪花.md)
