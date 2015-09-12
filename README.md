@@ -4,6 +4,7 @@
 - gitbook-cli 0.3.6
 - gitbook 2.3.3
 
+使用如下命令安装：
 
     $ npm install gitbook -g
     $ gitbook versions:install 2.3.3
