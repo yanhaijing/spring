@@ -18,5 +18,9 @@
 
 	$ gitbook build . ../temp
 
+生成pdf文件
+
+	$ gitbook pdf . ../spring.pdf
+
 ## LICENSE
 [LICENSE](./LICENSE.md)
