@@ -14,7 +14,7 @@
             "token": "53ee8889aa158cbb581bdbc9a373b5f0"
         },
         "edit-link": {
-            "base": "https://github.com/yanhaijing/spring/edit/BRANCH/path/to/book",
+            "base": "https://github.com/yanhaijing/spring/edit/master/",
             "label": "Edit This Page"
         },
         "duoshuo": {
