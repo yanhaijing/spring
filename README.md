@@ -6,7 +6,7 @@
 
 使用如下命令安装：
 
-    $ npm install gitbook -g
+    $ npm install gitbook@0.3.6 -g
     $ gitbook versions:install 2.3.3
 
 ## 构建命令
