@@ -5,7 +5,7 @@
     "structure": {
         "readme": "INTRO.md"
     },
-    "plugins": ["github", "baiduana", "edit-link", "-diy-introduction", "-duoshuo"],
+    "plugins": ["github", "baiduana", "edit-link", "-diy-introduction", "duoshuo"],
     "pluginsConfig": {
         "github": {
             "url": "https://github.com/yanhaijing/spring"

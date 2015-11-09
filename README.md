@@ -10,6 +10,10 @@
     $ gitbook versions:install 2.3.3
 
 ## 构建命令
+安装插件
+
+    $ gitbook install
+
 本地模拟
 
 	$ gitbook serve --port 8001
