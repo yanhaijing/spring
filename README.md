@@ -1,8 +1,9 @@
 # 青丝集
 
 ## 依赖环境
-- gitbook-cli 0.3.6
-- gitbook 2.3.3
+- gitbook-cli@0.3.6
+- gitbook@2.3.3
+- calibre@2.38.0
 
 使用如下命令安装：
 
