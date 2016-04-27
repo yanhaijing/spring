@@ -2,6 +2,8 @@
 
 - [版权](LICENSE.md)
 
+- [推荐序](preface/preface.md)
+
 - [诗](ci/README.md)
     - [金沙滩](shi/2014-05-01-金沙滩.md)
     - [浪花](shi/2014-05-01-浪花.md)
