@@ -1,4 +1,5 @@
 # 青丝集
+[GitBook使用笔记](http://yanhaijing.com/tool/2015/09/12/my-gitbook-note/)
 
 ## 依赖环境
 - gitbook-cli@0.3.6
