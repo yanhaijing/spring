@@ -7,7 +7,7 @@
 
 使用如下命令安装：
 
-    $ npm install gitbook@0.3.6 -g
+    $ npm install gitbook-cli@0.3.6 -g
     $ gitbook versions:install 2.3.3
 
 ## 构建命令
@@ -23,9 +23,11 @@
 
 	$ gitbook build . ../temp
 
-生成pdf文件，依赖[calibre](calibre)里的ebook-convert
+生成pdf, epub, mobi文件，依赖[calibre](calibre)里的ebook-convert
 
-	$ gitbook pdf . ../spring.pdf
+    $ gitbook pdf . ./spring.pdf
+    $ gitbook epub . ./spring.epub
+	$ gitbook mobi . ./spring.mobi
 
 生成一个markdown文件，需要node环境
 

@@ -2,4 +2,6 @@ _book
 node_modules
 *.docx
 *.pdf
+*.epub
+*.mobi
 spring.md
