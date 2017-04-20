@@ -1,0 +1,18 @@
+{
+  "name": "spring",
+  "version": "1.0.0",
+  "description": "青丝集",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:markdown": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanhaijing/spring.git"
+  },
+  "author": "yanhaijing",
+  "bugs": {
+    "url": "https://github.com/yanhaijing/spring/issues"
+  },
+  "homepage": "http://yanhaijing.com/spring/"
+}
