@@ -1,0 +1,47 @@
+env:
+  global:
+    - GH_REF: github.com/yanhaijing/spring.git #设置GH_REF，注意更改yourname
+
+# 指定语言环境
+language: node_js
+# 指定需要sudo权限
+sudo: required
+# 指定node_js版本
+node_js: 
+  - 8.9.4
+# 指定缓存模块，可选。缓存可加快编译速度。
+cache:
+  directories:
+    - node_modules
+
+# 指定博客源码分支，因人而异。hexo博客源码托管在独立repo则不用设置此项
+branches:
+  only:
+    - source 
+
+before_install:
+  - npm install -g gitbook-cli@0.3.6
+  - gitbook versions:install 2.3.3
+
+# Start: Build Lifecycle
+install:
+  - gitbook install
+
+# 执行清缓存，生成网页操作
+script:
+  - gitbook build . ./public
+
+# 设置git提交名，邮箱；替换真实token到_config.yml文件，最后depoy部署
+after_script:
+  - git clone https://${GH_REF} .deploy_git
+  - cd .deploy_git
+  - git checkout gh-pages origin/gh-pages
+  - cd ..
+  - mv .deploy_git/.git/ ./public/
+  - cd ./public
+  - git config user.name "yanhaijing"
+  - git config user.email "yanhaijing@yeah.net"
+  - git add .
+  - git commit -m "Travis-ci auto update"
+  - git push -f "https://${GH_TOEKN}@${GH_REF}" gh-pages:gh-pages
+# End: Build LifeCycle
