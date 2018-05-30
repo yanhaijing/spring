@@ -1,15 +1,16 @@
-# 青丝集
+# 青丝集 [![Build Status](https://travis-ci.org/yanhaijing/spring.svg?branch=source)](https://travis-ci.org/yanhaijing/spring)
 [GitBook使用笔记](http://yanhaijing.com/tool/2015/09/12/my-gitbook-note/)
 
 ## 依赖环境
-- gitbook-cli@0.3.6
-- gitbook@2.3.3
+- node 8.9.4
+- gitbook-cli@2.3.0
+- gitbook@3.2.2
 - calibre@2.38.0
 
 使用如下命令安装：
 
-    $ npm install gitbook-cli@0.3.6 -g
-    $ gitbook versions:install 2.3.3
+    $ npm install -g gitbook-cli@2.3.0
+    $ gitbook fetch 3.2.2
 
 ## 构建命令
 安装插件
