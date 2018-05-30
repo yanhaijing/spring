@@ -1,4 +1,4 @@
-# 青丝集 [![Build Status](https://travis-ci.org/yanhaijing/spring.svg?branch=source)](https://travis-ci.org/yanhaijing/spring)
+# 青丝集 [![Build Status](https://travis-ci.org/yanhaijing/spring.svg?branch=master)](https://travis-ci.org/yanhaijing/spring)
 [GitBook使用笔记](http://yanhaijing.com/tool/2015/09/12/my-gitbook-note/)
 
 ## 依赖环境
