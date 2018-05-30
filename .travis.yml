@@ -35,7 +35,7 @@ script:
 after_script:
   - git clone https://${GH_REF} .deploy_git
   - cd .deploy_git
-  - git checkout gh-pages origin/gh-pages
+  - git checkout -b gh-pages origin/gh-pages
   - cd ..
   - mv .deploy_git/.git/ ./public/
   - cd ./public
