@@ -20,11 +20,11 @@ branches:
     - master 
 
 before_install:
-  - npm install -g gitbook-cli@0.3.6
+  - npm install -g gitbook-cli@2.3.0
+  - gitbook fetch 3.2.2
 
 # Start: Build Lifecycle
 install:
-  - gitbook versions:install 2.3.3
   - gitbook install
 
 # 执行清缓存，生成网页操作
